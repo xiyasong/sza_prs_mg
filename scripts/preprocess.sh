@@ -49,3 +49,4 @@ echo "Final output:"
 echo "- ${OUT_PREFIX}.pgen"
 echo "- ${OUT_PREFIX}.pvar"
 echo "- ${OUT_PREFIX}.psam"
+# -----------Individual sample will raising lack of AF data error here

@@ -40,7 +40,7 @@ print(f"User PRS:               {args.user_score:.6f}")
 print(f"Relative Risk:          {relative_risk:.2f}x")
 print(f"Score as % of 2x mean:  {percent_of_double_mean:.2f}%")
 print(f"Percentile (1000G ref): {user_percentile:.2f}%")
-# ---------------------- Output into tsv ---------------------- #
+# ---------------------- Output into TSV ---------------------- #
 
 # Save to TSV file
 with open("prs_summary.tsv", "w") as f:
