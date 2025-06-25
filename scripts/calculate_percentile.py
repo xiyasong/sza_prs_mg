@@ -40,3 +40,17 @@ print(f"User PRS:               {args.user_score:.6f}")
 print(f"Relative Risk:          {relative_risk:.2f}x")
 print(f"Score as % of 2x mean:  {percent_of_double_mean:.2f}%")
 print(f"Percentile (1000G ref): {user_percentile:.2f}%")
+# ---------------------- Output into tsv ---------------------- #
+
+# Save to TSV file
+with open("prs_summary.tsv", "w") as f:
+    # Write header
+    f.write("Trait\t1000G_mean_PRS\tUser_PRS\tRelative_Risk\tScore_%_of_2x_mean\tPercentile_1000G\n"
+    # Write data
+    f.write(f"{args.trait}\t"
+            f"{mean_score:.6f}\t"
+            f"{args.user_score:.6f}\t"
+            f"{relative_risk:.2f}\t"
+            f"{percent_of_double_mean:.2f}\t"
+            f"{user_percentile:.2f}\n")
+
