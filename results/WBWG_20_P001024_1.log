@@ -1,0 +1,29 @@
+PLINK v2.0.0-a.6.9LM 64-bit Intel (29 Jan 2025)
+Options in effect:
+  --out ../results/WBWG_20_P001024_1
+  --pfile WBWG_20_P001024_1
+  --read-freq WBWG_20_P001024_1.afreq
+  --score ../data/PGS000020_hmPOS_GRCh38_scorefile.txt 1 2 3
+
+Hostname: sysmedservant1
+Working directory: /mnt/storage_pool/Genomics/Genome/PRS_SZA/sza_prs_mg/scripts
+Start time: Mon Jun 30 12:15:57 2025
+
+Random number seed: 1751285757
+257521 MiB RAM detected, ~248345 available; reserving 128760 MiB for main
+workspace.
+Using up to 128 threads (change this with --threads).
+1 sample (0 females, 0 males, 1 ambiguous; 1 founder) loaded from
+WBWG_20_P001024_1.psam.
+3859954 variants loaded from WBWG_20_P001024_1.pvar.
+Note: No phenotype data present.
+--read-freq: PLINK 2 --freq file detected.
+--read-freq: Frequencies for 3859954 variants loaded.
+Warning: --score: 5621 entries in ../data/PGS000020_hmPOS_GRCh38_scorefile.txt
+were skipped due to missing variant IDs.
+(Add the 'list-variants' modifier to see which variants were actually used for
+scoring.)
+--score: 1881 variants processed.
+--score: Results written to ../results/WBWG_20_P001024_1.sscore .
+
+End time: Mon Jun 30 12:16:00 2025
