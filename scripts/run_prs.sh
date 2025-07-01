@@ -22,6 +22,6 @@ echo "Step: Calculating PRS with Plink2..."
 plink2 \
   --pfile ${PGEN_PREFIX} \
   --score ${SCORE_FILE} 1 2 3 \
-  --out ${OUT_PREFIX}
-
+  --out ${OUT_PREFIX} \
+  --read-freq ${PGEN_PREFIX}.afreq
 echo "PRS calculation completed. Output written to ${OUT_PREFIX}.sscore"
